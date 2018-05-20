@@ -1,35 +1,34 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title>TKawaguchi Portfolio</title>
+    <title>Contact</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" type="text/css" href="assets/css/styleSheetForContact.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/styles.css">
 
     
 </head>
-<body class="main">
+<body>
     
-     <header class="navbar">
-        <box1 id="bar-left"> Takahiro Kawaguchi
-        </box1>
-
-
-        <div class="nav-bar-right" id="nav-bar-right">
-            <ul id="notList">
-                    <li><a class="navitems" href="index.html">About</a> | </li>
-                    <li><a class="navitems" href="portfolio.html">Portfolio</a> | </li>
-                    <li><a class="navitems" href="contact.html">Contact</a> | </li>
-            </ul>
-        </div>
+    <header class="flex-center">
+            <div class="name-box flex-center"><h1 class="flex-center"> Takahiro Kawaguchi</h1></div> 
+            <nav>
+                <ul class="flex-center">
+                    <li><a class="navitems" href="index.html">About</a></li>
+                    <li><a class="navitems" href="portfolio.html">Portfolio</a></li>
+                    <li><a class="navitems" href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
     </header>
 
-    <outer-wrapper>
-        
-        <p class="Name"> Contact </p>
-        <hr>
-        <inner-wrapper class="name-content-wrapper">
+ 
+    <section class="main">
+        <header class="flex-center">
+            <h2>Contact</h2>
+        </header>
+        <div class="inner-wrapper flex-center introduction">
             <form action="mailto:takahiro04kawaguchi13@gmail.com" method="post" id="form1">
                 <p class="contact"> Name </p>
                 <input class="inputContact" id="input1" type="text" name="name">
@@ -39,20 +38,14 @@
 
                 <p class="contact"> Message </p>
                 <textarea type="text" name="comment"></textarea>
-                
-             </form>
-             
-             <button type="submit" form="form1" value="Submit">Submit</button>
-
-        </inner-wrapper>
-
-    </outer-wrapper> 
+            </form>
+            <button type="submit" form="form1" value="Submit">Submit</button>
+        </div>
+    </section>   
     
-      
-   
-    
-
-    <footer class="footer"> </footer>
+    <footer> 
+            <h3 class="flex-center">copyright©</h3>
+    </footer>
 
 </body>
 
