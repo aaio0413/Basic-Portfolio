@@ -1,7 +1,7 @@
 body {
     font-family: 'Abel', sans-serif;
-    background-image: url('../images/Mountains-Scenery-from-Above-1920x1080-wide-wallpapers.net.jpg');
-    background-size: cover;
+    /* background-image: url('../images/Mountains-Scenery-from-Above-1920x1080-wide-wallpapers.net.jpg'); */
+    /* background-size: cover; */
     color: rgb(26, 21, 21);
 }
 
@@ -10,6 +10,8 @@ html ,body {
 }
 
 header {
+    position: absolute;
+    width: 100%;
     display: flex;
     /* flex-flow: row wrap; */
     /* background-color: #ffffff; */
@@ -21,7 +23,8 @@ header {
 }
 
 header h1 {
-    margin-left: 57px;
+    font-weight: 500;
+    margin-left: 72px;
     font-size: 30px;
 }
 
@@ -104,12 +107,39 @@ header nav li {
 }
 
 .inner-wrapper {
+    position: absolute;
     border-radius: 1em;
-    background-color: rgba(250, 250, 250, 0.5);
+    /* background-color: rgba(250, 250, 250, 0.5); */
     flex-flow: row wrap;
     justify-content: flex-start;
     width: 42%;
     color: rgb(7, 7, 7);
+    padding: 10px;
+    margin: 28% auto;
+    margin-left: 158px;
+}
+
+.inner-wrapper2 {
+    position: absolute;
+    border-radius: 1em;
+    /* background-color: rgba(250, 250, 250, 0.5); */
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    width: 36%;
+    color: rgb(7, 7, 7);
+    padding: 10px;
+    margin: 40% auto;
+    right: 0;
+}
+
+.inner-wrapper3 {
+    position: absolute;
+    border-radius: 1em;
+    /* background-color: rgba(250, 250, 250, 0.5); */
+    flex-flow: row wrap;
+    justify-content: flex-start;
+    width: 42%;
+    color: rgb(255, 255, 255);
     padding: 10px;
     margin-top: 120px;
     margin-left: 130px;
@@ -155,11 +185,147 @@ header nav li {
 /* .bottom-wrapper {
     top: 400px;
     left: 20px;
-    position: absolute;
+    position: absolute;x
     margin: 15px;
     height: 68%;
     overflow: auto;
 } */
+
+#first-slide {
+    background-image: url('../images/skyscrapper-img.jpg');
+    background-size: cover;
+}
+
+#second-slide {
+    background-image: url('../images/beautiful-beach-pictures-for-desktop-background-hd-wallpaper.jpg');
+    background-size: cover;
+}
+
+#third-slide {
+    background-image: url('../images/skyscrapper-img.jpg');
+    background-size: cover;
+}
+
+.slide-container {
+    /* max-width: 1000px; */
+    position: relative;
+    margin: auto;
+}
+
+.slide {
+    display: none;
+    block-size: 826px;
+}
+
+.fade {
+    -webkit-animation-name: fade;
+    -webkit-animation-duration: 1.5s;
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+}
+@keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+}
+
+
+.prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+}
+
+.prev:hover, .next:hover {
+    background-color: #717171;
+}
+
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.dot-container {
+    margin-top: -36px; 
+    text-align: center;
+}
+
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active, .dot :hover {
+    background-color: #717171;
+}
+
+
+/* Main Context */
+
+.main-context1 {
+    font-family: open sans,sans-serif;
+    width: 100%;
+    height: 360px;
+    background-color: rgb(241, 243, 243);
+    margin-top: 18px;
+    display: flex;
+}
+
+.flex-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.text-wrapper {
+    font-size: 45px;
+    width: 30%;
+    padding: 40px;
+    padding-top: 128px;
+    font-weight: 600;
+}
+
+.lead-wrapper {
+    width: 70%;
+    padding: 40px;
+    padding-top: 128px;
+    font-size: 20px;
+    font-weight: 200;
+    color: rgba(0, 0, 0, 0.5);
+}
+
+.main-context2 {
+    font-family: open sans,sans-serif;
+    width: 100%;
+    height: 360px;
+    background-color: rgb(255, 255, 255);
+    margin-top: 18px;
+    display: flex;
+}
+
+
+
+
+
 
 
 
