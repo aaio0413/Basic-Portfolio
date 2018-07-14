@@ -3,6 +3,7 @@ body {
     /* background-image: url('../images/Mountains-Scenery-from-Above-1920x1080-wide-wallpapers.net.jpg'); */
     /* background-size: cover; */
     color: rgb(26, 21, 21);
+    background-color: rgb(241, 243, 243);
 }
 
 html ,body {
@@ -138,11 +139,11 @@ header nav li {
     /* background-color: rgba(250, 250, 250, 0.5); */
     flex-flow: row wrap;
     justify-content: flex-start;
-    width: 42%;
-    color: rgb(255, 255, 255);
+    width: 26%;
+    color: rgb(0, 0, 0);
     padding: 10px;
-    margin-top: 120px;
-    margin-left: 130px;
+    margin-top: 376px;
+    right: 10px;
 }
 
 .introduction {
@@ -202,7 +203,7 @@ header nav li {
 }
 
 #third-slide {
-    background-image: url('../images/skyscrapper-img.jpg');
+    background-image: url('../images/thumb-1920-590374.jpg');
     background-size: cover;
 }
 
@@ -371,6 +372,42 @@ button:active {
 
 /* Portfolio section */
 
+.main2 {
+    padding-top: 11px;
+}
+
+.portfolio-bd {
+    font-family: 'Abel', sans-serif;
+    background-image: url('../images/402424460-amazing-hd-wallpapers.jpg');
+    background-size: cover;
+    background-color: rgb(241, 243, 243);
+}
+
+.header2 {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    /* flex-flow: row wrap; */
+    /* background-color: #ffffff; */
+    height: 94px;
+    align-items: center;
+    justify-content: flex-end;
+    color:rgb(243, 250, 251);
+    /* border-bottom: 2px solid rgba(119, 119, 119, 0.7); */
+}
+
+.navitems2 {
+    text-decoration: none;
+    /* color: #777777; */
+    margin: 0;
+    color:rgb(243, 250, 251);
+}
+
+.navitems2:hover {
+    color: skyblue;
+    font-size: 1.3em;
+}
+
 .grid-item {
     width: 33%;
     margin-bottom: 25px;
@@ -379,8 +416,23 @@ button:active {
     align-items: center;
 }
 
+.grid-container {
+    /* background-color: rgba(250, 250, 250, 0.5); */
+    flex-flow: row wrap;
+    /* justify-content: flex-start; */
+    /* width: 42%; */
+    color: rgb(7, 7, 7);
+    padding: 26px;
+    margin: 12% auto;
+}
+
 .grid-container img {
-    height: 146px;
+    border: solid 2px rgb(53, 87, 255);
+    border-radius: 8px;
+    height: 204px;
+    width: 100%;
+    max-width:90%;
+    max-height:90%;
 }
 
 footer {
