@@ -417,21 +417,22 @@ button:active {
 }
 
 .grid-container {
-    /* background-color: rgba(250, 250, 250, 0.5); */
+    background-color: rgba(226, 245, 244, 0.4);
     flex-flow: row wrap;
     /* justify-content: flex-start; */
-    /* width: 42%; */
+    width: 80%;
     color: rgb(7, 7, 7);
     padding: 26px;
     margin: 12% auto;
+    border-radius: 2em;
 }
 
 .grid-container img {
-    border: solid 2px rgb(53, 87, 255);
+    /* border: solid 2px rgb(53, 87, 255); */
     border-radius: 8px;
     height: 204px;
-    width: 100%;
-    max-width:90%;
+    /* width: 100%; */
+    max-width:100%;
     max-height:90%;
 }
 
@@ -446,8 +447,160 @@ footer {
     border-top: 6px solid rgba(5, 49, 36, 0.7); */
 }
 
-h3 {
+/* h3 {
     color: #fff;
     font-size: 13px;
     text-align: center;
+} */
+
+
+
+
+/* .grid {
+	padding: 20px 20px 100px 20px;
+	max-width: 1300px;
+	margin: 0 auto;
+	list-style: none;
+	text-align: center;
+}
+
+.grid li {
+	display: inline-block;
+	width: 440px;
+	margin: 0;
+	padding: 20px;
+	text-align: left;
+	position: relative;
+}
+
+.grid figure {
+	margin: 0;
+	position: relative;
+}
+
+.grid figure img {
+	max-width: 100%;
+	display: block;
+	position: relative;
+} */
+
+
+/* This hover animation is referred to https://tympanus.net/Tutorials/CaptionHoverEffects/index4.html */
+
+.grid-container ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+*, *:after, *:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.grid figcaption {
+	position: absolute;
+	top: 0;
+	left: 0;
+	padding: 20px;
+	background: #2c3f52;
+	color: #ed4e6e;
+}
+
+.grid figcaption h3 {
+	margin: 0;
+	padding: 0;
+	color: #fff;
+}
+
+.grid figcaption span:before {
+	content: 'by ';
+}
+
+.grid figcaption a {
+    text-align: center;
+    text-decoration: none;
+	padding: 5px 10px;
+	border-radius: 2px;
+	display: inline-block;
+	background: #ed4e6e;
+	color: #fff;
+}
+
+.figure-style li {
+    display: inline-block;
+    width: 325px;
+	-webkit-perspective: 1700px;
+	-moz-perspective: 1700px;
+	perspective: 1700px;
+	-webkit-perspective-origin: 0 50%;
+	-moz-perspective-origin: 0 50%;
+	perspective-origin: 0 50%;
+}
+
+.figure-style figure {
+	-webkit-transform-style: preserve-3d;
+	-moz-transform-style: preserve-3d;
+	transform-style: preserve-3d;
+}
+
+.figure-style figure > div {
+    overflow: hidden;
+    border-radius: 8px;
+}
+
+.figure-style figure img {
+	-webkit-transition: -webkit-transform 0.4s;
+	-moz-transition: -moz-transform 0.4s;
+	transition: transform 0.4s;
+}
+
+.no-touch .figure-style figure:hover img,
+.figure-style figure.cs-hover img {
+	-webkit-transform: translateX(25%);
+	-moz-transform: translateX(25%);
+	-ms-transform: translateX(25%);
+	transform: translateX(25%);
+}
+
+.figure-style figcaption {
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+	height: 98.5%;
+	width: 50%;
+	opacity: 0;
+	-webkit-backface-visibility: hidden;
+	-moz-backface-visibility: hidden;
+	backface-visibility: hidden;
+	-webkit-transform-origin: 0 0;
+	-moz-transform-origin: 0 0;
+	transform-origin: 0 0;
+	-webkit-transform: rotateY(-90deg);
+	-moz-transform: rotateY(-90deg);
+	transform: rotateY(-90deg);
+	-webkit-transition: -webkit-transform 0.4s, opacity 0.1s 0.3s;
+	-moz-transition: -moz-transform 0.4s, opacity 0.1s 0.3s;
+	transition: transform 0.4s, opacity 0.1s 0.3s;
+}
+
+.no-touch .figure-style figure:hover figcaption,
+.figure-style figure.cs-hover figcaption {
+	opacity: 1;
+	-webkit-transform: rotateY(0deg);
+	-moz-transform: rotateY(0deg);
+	transform: rotateY(0deg);
+	-webkit-transition: -webkit-transform 0.4s, opacity 0.1s;
+	-moz-transition: -moz-transform 0.4s, opacity 0.1s;
+	transition: transform 0.4s, opacity 0.1s;
+}
+
+.figure-style figcaption a {
+	position: absolute;
+	bottom: 20px;
+	right: 20px;
+}
+
+.top-li {
+    margin-bottom: 38px;
 }
