@@ -38,23 +38,25 @@ console.log(slideIndex);
   dots[slideIndex-1].className += " active";
 }
 
+
+
 //showcase
 
 (function(window) {
 	
 	// for touch devices: add class cs-hover to the figures when touching the items
-	if(Modernizr.touch) {
+	// if(Modernizr.touch) {
 
-		// classie.js https://github.com/desandro/classie/blob/master/classie.js
-		// class helper functions from bonzo https://github.com/ded/bonzo
+	// 	// classie.js https://github.com/desandro/classie/blob/master/classie.js
+	// 	// class helper functions from bonzo https://github.com/ded/bonzo
 
-		function classReg( className ) {
-			return new RegExp("(^|\\s+)" + className + "(\\s+|$)");
-		}
+	// 	function classReg( className ) {
+	// 		return new RegExp("(^|\\s+)" + className + "(\\s+|$)");
+	// 	}
 
-		// classList support for class management
-		// altho to be fair, the api sucks because it won't accept multiple classes at once
-		var hasClass, addClass, removeClass;
+	// 	// classList support for class management
+	// 	// altho to be fair, the api sucks because it won't accept multiple classes at once
+	// 	var hasClass, addClass, removeClass;
 
 		if ( 'classList' in document.documentElement ) {
 			hasClass = function( elem, c ) {
@@ -118,5 +120,5 @@ console.log(slideIndex);
 
 	}
 
-})( window );
+)( window );
 

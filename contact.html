@@ -5,48 +5,101 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script
+        src="https://code.jquery.com/jquery-3.3.1.js"
+        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+        crossorigin="anonymous"></script>
     <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
     <link rel="stylesheet" type="text/css" href="assets/css/styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
 
-    
 </head>
 <body>
-    
-    <header class="flex-center">
-            <div class="name-box flex-center"><h1 class="flex-center"> Takahiro Kawaguchi</h1></div> 
-            <nav>
-                <ul class="flex-center">
-                    <li><a class="navitems" href="index.html">About</a></li>
-                    <li><a class="navitems" href="portfolio.html">Portfolio</a></li>
-                    <li><a class="navitems" href="contact.html">Contact</a></li>
-                </ul>
-            </nav>
+    <header class="header-position-static flex-between">
+        <h1>TK</h1>
+        <nav class='navigation'>
+            <ul class="flex-end">
+                <li><a class="navitems2" href="index.html">About</a></li>
+                <li><a class="navitems2" href="portfolio.html">Portfolio</a></li>
+                <li><a class="navitems2" href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
     </header>
 
- 
-    <section class="main">
-        <header class="flex-center">
-            <h2>Contact</h2>
-        </header>
-        <div class="inner-wrapper flex-center introduction">
-            <form action="mailto:takahiro04kawaguchi13@gmail.com" method="post" id="form1">
-                <p class="contact"> Name </p>
-                <input class="inputContact" id="input1" type="text" name="name">
+    <section class="main3">
+        <div class="contact-inner-wrapper">
+            <div class='text-wrapper-form'>
+                <h2>How Can I assist you?</h2>
+                <p class='lead'>Addition to making beautiful web pages, I care about user experience too. 
+                    I would like to be a part of your business through the web development. Please tell me anything you want and pursue.</p>
+            </div>
+            <form class='form-control' action="mailto:takahiro04kawaguchi13@gmail.com" method="post" id="form1">
+                
+                <p class="form-label"> Fill up this form with any question you have</p>
+                <span class='flex-between'>
+                    <input class="inputContact" id="firstName" type="text" name="name" placeholder='First Name'>
+                    <input class="inputContact" id="lastName" type="text" name="name" placeholder='Last Name'>
+                </span>
 
-                <p class="contact"> Email </p>
-                <input class="inputContact" id="input2" type="email" name="email">
+                <input class="inputContact" id="input2" type="email" name="email" placeholder='email@'>
+                <textarea type="text" name="comment" placeholder='Message'></textarea>
 
-                <p class="contact"> Message </p>
-                <textarea type="text" name="comment"></textarea>
+                <span class='bottom-wrapper'>
+                    <p class='form-accept'>I certify that the information above is true and accurate.</p>
+                    <button type="submit" form="form1" value="Submit">Submit</button>
+                </span>
             </form>
-            <button type="submit" form="form1" value="Submit">Submit</button>
+           
+            
+        </div>
+        <div class='contact-info'>
+            <h2>Reach out to me whichever easier for you to contact. 
+                Counseling is free. Please talk to me anything frankly.</h2>
+            <p class='lead'>I'll provide samples and workflow planning shortly after you give me the idea of your web page.
+                Feel free to contact to me about anything you want to ask or just talk to.
+            </p>
+            <div class='all-info'>
+            
+                <div class='address-wrapper'>
+                    <div class='address'>
+                        <p class='bold'>USA</p>
+                        <br>
+                        <p>5000 MacArthur Blvd.</p>
+                        <p>Oakland</p>
+                        <p>CA, 94613-1301</p>
+                        <br>
+                        <p><span class='bold'>MOBILE  </span>(415)802-5173</p>
+                    </div>
+                    <div class='address'>
+                        <p class='bold'>Japan</p>
+                        <br>
+                        <p>5000 MacArthur Blvd.</p>
+                        <p>Oakland</p>
+                        <p>CA, 94613-1301</p>
+                        <br>
+                        <p><span class='bold'>MOBILE  </span>(415)802-5173</p>
+                    </div>
+                </div>
+                <p class='address-lecture'>You can reach out to me anytime by emails.</p>
+                <div class='address-wrapper'>
+                    <div class='address'>
+                        <p class='bold'>Main Eamil</p>
+                        <p>takahiromba@gmail.com</p>
+                    </div>
+                    <div class='address'>
+                        <p class='bold'>Second Eamil</p>
+                        <p>takahiro04kawaguchi13@gmail.com</p>
+                    </div>
+                </div>
+            
+            </div>
         </div>
     </section>   
     
     <footer> 
-            <h3 class="flex-center">copyright©</h3>
+        <!-- <h3 class="flex-center">copyright©</h3> -->
     </footer>
-
+    <script src='assets/javascript/portfolio.js'></script>
 </body>
 
 </html>
