@@ -555,7 +555,7 @@ header nav li {
 
 .main3 {
     display: flex;
-    padding: 30px 70px;
+    padding: 45px 70px;
     color: rgba(0, 0, 0, 0.7);
 }
 
@@ -581,7 +581,7 @@ header nav li {
 
 .navitems2:hover {
     color: rgb(12, 156, 167);
-    font-size: 1.3em;
+    /* font-size: 1.3em; */
 }
 
 .contact-inner-wrapper {
@@ -740,7 +740,7 @@ button:active {
 }
 
 .lead {
-    color: rgba(98, 99, 99, 0.91);
+    color: rgba(82, 82, 82, 0.81);
     letter-spacing: 0.8px;
     font-weight: 300;
     font-size: 18px;
@@ -782,6 +782,9 @@ button:active {
     color: rgba(23, 23, 25, 0.8);
 }
 
+.address {
+    color: rgba(82, 82, 82, 0.81);
+}
 
 
 /* footer */
@@ -833,6 +836,10 @@ li i {
     margin: 3px;
 }
 
+.icon :hover {
+    color: rgb(107, 195, 247);
+}
+
 .footer-contents {
     font-size: 16px;
     line-height: 1.4;
@@ -840,5 +847,10 @@ li i {
 }
 
 .footer-contents :hover {
+    color: white;
+}
+
+.link-white {
+    text-decoration: none;
     color: white;
 }
