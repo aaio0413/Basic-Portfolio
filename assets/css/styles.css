@@ -193,6 +193,8 @@ header nav li {
 } */
 
 #first-slide {
+    width: 100%;
+    height: 100%;
     background-image: url('../images/skyscrapper-img.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -203,11 +205,15 @@ header nav li {
 }
 
 #second-slide {
+    width: 100%;
+    height: 100%;
     background-image: url('../images/beautiful-beach-pictures-for-desktop-background-hd-wallpaper.jpg');
     background-size: cover;
 }
 
 #third-slide {
+    width: 100%;
+    height: 100%;
     background-image: url('../images/thumb-1920-590374.jpg');
     background-size: cover;
 }
@@ -216,7 +222,27 @@ header nav li {
     /* max-width: 1000px; */
     position: relative;
     margin: auto;
+    height: 100%;
+    /* display: -webkit-box; */
 }
+
+/* @media screen {
+    .slide-container {
+        height: 826px;
+     }
+} */
+/* @media screen and (-webkit-min-device-pixel-ratio:0) {
+    .slide-container {
+        -webkit-appearance: menulist-button !important;
+        height:8px !important;
+    }
+} */
+
+/* @media -webkit-appearance {
+    .slide-container {
+        height: 839px;
+     }
+} */
 
 .slide {
     display: none;
@@ -292,7 +318,7 @@ header nav li {
     width: 100%;
     height: 360px;
     background-color: rgb(241, 243, 243);
-    margin-top: 18px;
+    /* margin-top: 18px; */
     display: flex;
 }
 
@@ -631,7 +657,7 @@ input {
 }
 
 ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
-    position: absolute;
+    /* position: absolute; */
     top: 0;
     color: black;
     font-weight: bold;
