@@ -116,8 +116,7 @@ header nav li {
     justify-content: flex-start;
     width: 42%;
     color: rgb(7, 7, 7);
-    padding: 10px;
-    margin: 28% auto;
+    margin: 28.5% auto;
     margin-left: 158px;
 }
 
@@ -384,7 +383,7 @@ header nav li {
     body .inner-wrapper {
         width: 100%;
         padding-left: 28px;
-        margin: 81% auto;
+        margin: 91% auto;
     }
     .inner-wrapper .first-para {
         font-size: 18px;
@@ -394,7 +393,7 @@ header nav li {
         width: 100%;
         color: rgb(255, 255, 255);
         padding: 15px;
-        margin: 107% auto;
+        margin: 328px auto;
         right: unset;
     }
 
@@ -511,7 +510,7 @@ header nav li {
     body .inner-wrapper {
         width: 100%;
         padding-left: 28px;
-        margin: 70% auto;
+        margin: 77% auto;
     }
     .inner-wrapper .first-para {
         font-size: 18px;
@@ -637,7 +636,7 @@ header nav li {
     body .inner-wrapper {
         width: 100%;
         padding-left: 28px;
-        margin: 63% auto;
+        margin: 70% auto;
     }
     .inner-wrapper .first-para {
         font-size: 18px;
@@ -746,7 +745,7 @@ header nav li {
         width: 100%;
         padding: 10px;
         padding-left: 52px;
-        margin: 28.5% auto;
+        margin: 288px auto;
         /* margin-left: 58px; */
     }
 
@@ -769,6 +768,33 @@ header nav li {
     }
 }
 
+@media only screen and (max-width: 1024px) and (min-width: 770px) {
+    body .inner-wrapper {
+        width: 100%;
+        padding: 17px;
+        margin: 280px auto;
+        text-align: center;
+    }
+
+    body .inner-wrapper2 {
+        padding: 4px;
+        margin: 345px auto;
+    }
+
+    .inner-wrapper3 {
+        padding-right: 15px;
+        margin-top: 186px;
+    }
+
+    .inner-wrapper3 .first-para {
+        font-size: 22px;
+    }
+
+    .inner-wrapper3 .second-para {
+        margin-top: 0;
+        font-size: 22px;
+    }
+}
 
 
 
@@ -989,7 +1015,30 @@ header nav li {
     margin-bottom: 38px;
 }
 
+/*  Portfolio Media Quary */
 
+@media only screen and (max-width: 320px) {
+    body .main2 {
+        padding-top: 2px;
+    }
+
+    .main2 .grid-container {
+        width: 100%;
+        background-color: rgb(207, 216, 215);
+        padding: 15px 0;
+        margin-top: 100px;
+        margin-bottom: 0;
+        border-radius: 0;
+    }
+    
+    .grid-container ul {
+        width: 95%;
+    }
+
+    .grid-container ul li :nth-child(3), :nth-child(4), :nth-child(5) {
+        margin-bottom: 38px;
+    }
+}
 
 
 /* CONTACT STYLE */
