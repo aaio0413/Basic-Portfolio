@@ -1308,6 +1308,10 @@ button:active {
     color: rgba(82, 82, 82, 0.81);
 }
 
+#spaceOfAce {
+    display: none;
+}
+
 
 /* footer */
 
@@ -1377,7 +1381,7 @@ li i {
     color: white;
 }
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 375px) {
     .main3 {
         display: block;
         padding: 12px;
@@ -1391,6 +1395,7 @@ li i {
         padding-right: 0;
     }
     .lead {
+        text-align: center;
         letter-spacing: unset;
         font-weight: 300;
         font-size: 20px;
@@ -1418,13 +1423,15 @@ li i {
         font-size: initial;
     }
 
-    .flex-between textarea {
+    #messageText {
         margin-top: 6px;
         border-radius: 6px;
+        margin-bottom: unset;
         margin-bottom: 12px;
     }
 
     .bottom-wrapper button {
+        margin-bottom: 0;
         font-size: 16px;
         height: 42px;
     }
@@ -1437,12 +1444,155 @@ li i {
         width: 100%;
         padding-left: 0;
         padding-right: 0;
-        margin: 80px 0;
+        margin-top: 80px;
     }
 
     .contact-info h2 {
         text-align: center;
         font-size: 26px;
+        margin-bottom: 80px;
     }
-    
+
+    .address-wrapper {
+        margin: 15px 5px;
+        display: flex;
+        justify-content: center;
+    }
+    .address-lecture {
+        margin: 30px;
+    }
+
+    .address {
+        width: 48%;
+    }
+
+    .email-address {
+        margin: 15px 0;
+        width: 100%;
+    }
+
+    #email-wrapper {
+        flex-direction: column;
+    }
+
+    #spaceOfAce {
+        display: block;
+    }
+
+    .address p {
+        margin-bottom: 0;
+    }
+
+}
+
+@media only screen and (min-width: 321px) and (max-width: 425px) {
+    .main3 {
+        display: block;
+        padding: 12px;
+    }
+    .contact-inner-wrapper {
+        width: 100%;
+        padding-left: 0;
+        text-align: center;
+    }
+    .text-wrapper-form {
+        padding-right: 0;
+    }
+    .lead {
+        text-align: center;
+        letter-spacing: unset;
+        font-weight: 300;
+        font-size: 20px;
+        margin-top: 41px;
+    }
+    .form-control {
+        padding-right: 0;
+        font-size: 24px;
+        line-height: unset;
+    }
+    .form-label {
+        font-size: 24px;
+        margin: 40px 0;
+    }
+
+    .inputContact {
+        width: 100%;
+        border: 1px solid rgba(179, 176, 176, 0.8);
+        height: 48px;
+        margin: 6px 0;
+        border-radius: 6px;
+    }
+
+    .input {
+        font-size: initial;
+    }
+
+    #messageText {
+        margin-top: 6px;
+        border-radius: 6px;
+        margin-bottom: unset;
+        margin-bottom: 12px;
+    }
+
+    .bottom-wrapper button {
+        margin-bottom: 0;
+        font-size: 16px;
+        height: 42px;
+    }
+
+    .form-accept {
+        font-size: 16px;
+    }
+
+    .contact-info {
+        width: 100%;
+        padding-left: 0;
+        padding-right: 0;
+        margin-top: 80px;
+    }
+
+    .contact-info h2 {
+        text-align: center;
+        font-size: 26px;
+        margin-bottom: 80px;
+    }
+
+    .address-wrapper {
+        margin: 15px 5px;
+        display: flex;
+        justify-content: center;
+    }
+    .address-lecture {
+        margin: 30px;
+    }
+
+    .address {
+        width: 48%;
+    }
+
+    .email-address {
+        margin: 15px 0;
+        width: 100%;
+    }
+
+    #email-wrapper {
+        flex-direction: column;
+    }
+
+    #spaceOfAce {
+        display: none;
+    }
+
+    .address p {
+        margin-bottom: 0;
+    }
+
+}
+
+
+@media only screen and (min-width: 425px) and (max-width: 768px) {
+
+    .main3 {
+        padding: 32px 18px;
+    }
 }
