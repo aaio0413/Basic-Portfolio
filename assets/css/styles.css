@@ -1590,9 +1590,61 @@ li i {
 }
 
 
-@media only screen and (min-width: 425px) and (max-width: 768px) {
+@media only screen and (min-width: 426px) and (max-width: 768px) {
 
     .main3 {
         padding: 32px 18px;
+    }
+    .contact-inner-wrapper {
+        text-align: center;
+        padding: 12px;
+        justify-content: unset;
+    }
+
+    .contact-info {
+        padding: 12px;
+        text-align: center;
+    }
+
+    .inputContact {
+        border: 1px solid rgba(214, 208, 208, 0.8);
+    }
+
+    .address-wrapper {
+        margin: 30px 16px;
+    }
+
+    .email-address {
+        margin: 30px -38px;
+    }
+}
+
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+    .contact-inner-wrapper {
+        justify-content: unset;
+        padding: 0 15px;
+    }
+
+    .inputContact {
+        border: 1px solid rgba(214, 208, 208, 0.8);
+    }
+
+    .contact-info {
+        padding: 0 15px;
+    }
+
+    .address-wrapper {
+        margin: 56px 0px;
+        justify-content: space-between;
+    }
+
+    .all-info {
+        margin-top: 0;
+    }
+}
+
+@media only screen and (max-width: 2560px) {
+    .inputContact {
+        border: 1px solid rgba(214, 208, 208, 0.8);
     }
 }
