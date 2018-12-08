@@ -1,194 +1,230 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
+  <head>
     <title>TKawaguchi Portfolio</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <script
-        src="https://code.jquery.com/jquery-3.3.1.js"
-        integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
-        crossorigin="anonymous"></script>
-    <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/styles.css">
-    <link href="https://fonts.googleapis.com/css?family=Abel" rel="stylesheet">
-    <link rel="stylesheet" 
-    href="https://use.fontawesome.com/releases/v5.1.1/css/brands.css" 
-    integrity="sha384-SYNjKRRe+vDW0KSn/LrkhG++hqCLJg9ev1jIh8CHKuEA132pgAz+WofmKAhPpTR7" 
-    crossorigin="anonymous">
-    <link rel="stylesheet" 
-    href="https://use.fontawesome.com/releases/v5.1.1/css/fontawesome.css" 
-    integrity="sha384-0b7ERybvrT5RZyD80ojw6KNKz6nIAlgOKXIcJ0CV7A6Iia8yt2y1bBfLBOwoc9fQ" 
-    crossorigin="anonymous">
+      src="https://code.jquery.com/jquery-3.3.1.js"
+      integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60="
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" type="text/css" href="assets/css/reset.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/styles.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Abel"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.1.1/css/brands.css"
+      integrity="sha384-SYNjKRRe+vDW0KSn/LrkhG++hqCLJg9ev1jIh8CHKuEA132pgAz+WofmKAhPpTR7"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.1.1/css/fontawesome.css"
+      integrity="sha384-0b7ERybvrT5RZyD80ojw6KNKz6nIAlgOKXIcJ0CV7A6Iia8yt2y1bBfLBOwoc9fQ"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
+    <!--
+      <header class="header flex-between">
+          <h1>Takahiro Kawaguchi</h1>
+          <nav class='navigation'>
+              <ul class="flex-end">
+                  <li><a class="navitems" href="index.html">About</a></li>
+                  <li><a class="navitems" href="portfolio.html">Portfolio</a></li>
+                  <li><a class="navitems" href="contact.html">Contact</a></li>
+              </ul>
+          </nav>
+      </header>
+    -->
 
-    
-</head>
-<body>
-    <!-- <header class="header flex-between">
-        <h1>Takahiro Kawaguchi</h1>
-        <nav class='navigation'>
-            <ul class="flex-end">
-                <li><a class="navitems" href="index.html">About</a></li>
-                <li><a class="navitems" href="portfolio.html">Portfolio</a></li>
-                <li><a class="navitems" href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
-    </header> -->
-    
     <div class="slide-container">
-        <header class="flex-between">
-            <h1>TK</h1>
-            <nav class='navigation'>
-                <ul class="flex-end">
-                    <li><a class="navitems" href="index.html">About</a></li>
-                    <li><a class="navitems" href="portfolio.html">Portfolio</a></li>
-                    <li><a class="navitems" href="contact.html">Contact</a></li>
-                </ul>
-            </nav>
-        </header>
+      <header class="flex-between">
+        <h1>TK</h1>
+        <nav class="navigation">
+          <ul class="flex-end">
+            <li><a class="navitems" href="index.html">About</a></li>
+            <li><a class="navitems" href="portfolio.html">Portfolio</a></li>
+            <li><a class="navitems" href="contact.html">Contact</a></li>
+          </ul>
+        </nav>
+      </header>
 
+      <div class="slide" id="first-slide">
+        <div class="inner-wrapper flex-center introduction fade">
+          <!--
+            <img src="https://media.licdn.com/dms/image/C4D03AQG08UOUl3bpGg/profile-displayphoto-shrink_200_200/0?e=1531958400&v=beta&t=ga1jrBRMgALXT5AeV5V-WbuO5KlO8E69h1Gqe7hoDcM" alt="Profile Picture of Takahiro">
+          -->
+          <div>
+            <p class="first-para">
+              Simple, yet beautiful. That's what every web page should be. I
+              pursue the most attractive and functional web page in the best way
+              possible.
+            </p>
+          </div>
 
-        <div class="slide" id='first-slide'>
-            <div class="inner-wrapper flex-center introduction fade">
-                <!-- <img src="https://media.licdn.com/dms/image/C4D03AQG08UOUl3bpGg/profile-displayphoto-shrink_200_200/0?e=1531958400&v=beta&t=ga1jrBRMgALXT5AeV5V-WbuO5KlO8E69h1Gqe7hoDcM" alt="Profile Picture of Takahiro"> -->
-                <div>
-                    <p class='first-para'> Simple, yet beautiful. That's what every web page should be.
-                        I pursue the most attractive and functional web page in the best way possible.
-                    </p>
-                </div>
-
-                <!-- <p class='second-para'> So, of course I do love Anime. My favorite Anime of all time is "GHOST IN THE SHELL". This anime series are composed of 3 anime seasons (technically 5), 
-                    2 animation movies, and latest short animation movie series (4 one hour movies). 
-                    There's even its live-action movie HOLLYWOOD made, however, don't watch it.The movie is almost nothing to do with original Anime series, and it sucked. 
-                    As a huge fun of Ghost In The Shell, I watched the movie at theater. Turns out, I was deeply disappointed and shamed that even the movie got title of Ghost In The Shell.</p>
-                <p class='third-para'> Anyway, my point is, I am a very friendly and kind person. </p> -->
-            </div>
-
+          <!--
+            <p class='second-para'> So, of course I do love Anime. My favorite Anime of all time is "GHOST IN THE SHELL". This anime series are composed of 3 anime seasons (technically 5),
+                2 animation movies, and latest short animation movie series (4 one hour movies).
+                There's even its live-action movie HOLLYWOOD made, however, don't watch it.The movie is almost nothing to do with original Anime series, and it sucked.
+                As a huge fun of Ghost In The Shell, I watched the movie at theater. Turns out, I was deeply disappointed and shamed that even the movie got title of Ghost In The Shell.</p>
+            <p class='third-para'> Anyway, my point is, I am a very friendly and kind person. </p>
+          -->
         </div>
-        <div class='slide' id='second-slide'>
-            <div class="inner-wrapper2 flex-center introduction fade">
-                <!-- <img src="https://media.licdn.com/dms/image/C4D03AQG08UOUl3bpGg/profile-displayphoto-shrink_200_200/0?e=1531958400&v=beta&t=ga1jrBRMgALXT5AeV5V-WbuO5KlO8E69h1Gqe7hoDcM" alt="Profile Picture of Takahiro"> -->
-                <div>
-                    <p class='first-para'> Hello everyone!! I am an internatinal business student at Mills College and also pursuing CS certificate simultaneously.
-                    I'm from Japan. 
-                    </p>
-                </div>
-                
-            </div>
+      </div>
+      <div class="slide" id="second-slide">
+        <div class="inner-wrapper2 flex-center introduction fade">
+          <!--
+            <img src="https://media.licdn.com/dms/image/C4D03AQG08UOUl3bpGg/profile-displayphoto-shrink_200_200/0?e=1531958400&v=beta&t=ga1jrBRMgALXT5AeV5V-WbuO5KlO8E69h1Gqe7hoDcM" alt="Profile Picture of Takahiro">
+          -->
+          <div>
+            <p class="first-para">
+              Making webpage ugly is easy. That's why when you look at
+              sophisticated and beautiful webpage, you can't leave from it for a
+              while. This is very powerful.
+            </p>
+          </div>
         </div>
-        <div class='slide' id='third-slide'>
-            <div class="inner-wrapper3 flex-center introduction fade">
-                <!-- <img src="https://media.licdn.com/dms/image/C4D03AQG08UOUl3bpGg/profile-displayphoto-shrink_200_200/0?e=1531958400&v=beta&t=ga1jrBRMgALXT5AeV5V-WbuO5KlO8E69h1Gqe7hoDcM" alt="Profile Picture of Takahiro"> -->
-                <div>
-                    <h1 class='first-para'> Hello everyone!! I am an internatinal business student at Mills College and also pursuing CS certificate simultaneously.
-                    </h1>
-                </div>
-                <p class='second-para'> Placeholder this is place holderrrrr
-                  </p>
-            </div>
+      </div>
+      <div class="slide" id="third-slide">
+        <div class="inner-wrapper3 flex-center introduction fade">
+          <!--
+            <img src="https://media.licdn.com/dms/image/C4D03AQG08UOUl3bpGg/profile-displayphoto-shrink_200_200/0?e=1531958400&v=beta&t=ga1jrBRMgALXT5AeV5V-WbuO5KlO8E69h1Gqe7hoDcM" alt="Profile Picture of Takahiro">
+          -->
+          <div>
+            <h1 class="first-para">
+              To improve bounce rate of your landing page, authentic design is
+              key. Attract users and keep them on your page with beautiful
+              landing page.
+            </h1>
+          </div>
+          <p class="second-para">Please feel free to contact me!</p>
         </div>
-        
-        
-        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      </div>
 
-        <div class="dot-container">
-            <span class="dot" onclick="currentSlide(1)"></span> 
-            <span class="dot" onclick="currentSlide(2)"></span> 
-            <span class="dot" onclick="currentSlide(3)"></span> 
-        </div>
+      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+      <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+      <div class="dot-container">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+      </div>
     </div>
 
-    <div class='main-context1'>
-        <div class='text-wrapper flex-wrap'>
-            <h1>Placeholder this's a placeholder.</h1>
-        </div>
-        <div class='lead-wrapper'>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
-                It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
-                It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-        </div>
-        
+    <div class="main-context1">
+      <div class="text-wrapper flex-wrap">
+        <h1>Hi there! I'm Takahiro, a Japanese dude.</h1>
+      </div>
+      <div class="lead-wrapper">
+        <p>
+          I came to the U.S. in June 2015 for studying abroad. Originally, I
+          intended to pursue only my master in business. However, since I
+          started getting into computer science and programming field, I'm
+          obsessed with learning how to code. Coding is so much fun! Currently,
+          I have been trying to launch a platform called
+          <span id="devstart">Dev-Start</span> that connects developer with
+          business owner with my team. Eventually, we plan to startup with this
+          project. In this project, I have been working on overall team
+          management with one of other members and mySQL database for main
+          content of the platform.
+        </p>
+      </div>
     </div>
 
-    <div class='main-context2'>
-        <div class='text-wrapper flex-wrap'>
-            <h1>Placeholder this's a placeholder.</h1>
-        </div>
-        <div class='lead-wrapper'>
-            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. 
-                    Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. 
-                    It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. 
-                    It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
-        </div>
+    <div class="main-context2">
+      <div class="lead-wrapper">
+        <p>
+          Although I have just started my journey in computer science and
+          programming world from September 2017, I desired to become the best
+          programmer as soon as possible. I eagerly learn what I need and what I
+          want. I am a fast learner, so I beleive in myself that I could provide
+          a great service to my client with my skills and knowledge. Meanwhile,
+          I am very generous and honest, so I will tell my client what I can do
+          and what I can't do at the best way possible. That being said, I also
+          desire to grow with each project and with client as well. Therefore, I
+          love to take challenging jobs and collaborate with client to solve any
+          problem together.
+        </p>
+      </div>
+      <div class="text-wrapper flex-wrap">
+        <h1>What I am looking for and what I value.</h1>
+      </div>
     </div>
 
-
-    <footer class='black-foot'> 
-        <div class='footer-wrapper'>
-            <div class='component-wrapper-left'>
-                <a class='link-white' href='index.html'><h1>TK</h1></a>
-                <div class='icon-wrapper'>
-                    <ul>
-                        <li class='icon'>
-                            <a href='https://www.linkedin.com/in/takahiro-kawaguchi-972aa2134/'>
-                                <i class="fab fa-linkedin fa-2x" alt='linkedin icon'></i>
-                            </a>
-                        </li>
-                        <li class='icon'>
-                            <a href='https://github.com/aaio0413'>
-                                <i class="fab fa-github fa-2x" alt='github icon'></i>
-                            </a>
-                        </li>
-                        <li class='icon'>
-                            <a href='https://www.facebook.com/takahiro.kawaguchi.904'>
-                                <i class="fab fa-facebook-square fa-2x" alt='facebook icon'></i>
-                            </a>
-                        </li>
-                        <li class='icon'>
-                            <a href='https://twitter.com/aaio_0413'>
-                                <i class="fab fa-twitter-square fa-2x" alt='twitter icon'></i>
-                            </a>
-                        </li>
-                    </ul>
-                </div>
-            </div>
-            <div class='component-wrapper-right'>
-                <div class='second-footer'>
-                        <h2>ABOUT ME</h2>
-                        <br>
-                        <ul class='footer-contents'>
-                            <li>Profile and Bio</li>
-                            <li>Blog</li>
-                            <li>Team</li>
-                            <li>Privacy</li>
-                        </ul>
-                </div>
-                <div class='third-footer'>
-                        <h2>WORK</h2>
-                        <br>
-                        <ul class='footer-contents'>
-                            <li>Apps</li>
-                            <li>Designs</li>
-                            <li>Pictures</li>
-                            <li>Pages</li>
-                        </ul>
-                </div>
-                <div class='fourth-footer'>
-                        <h2>CLIENTS</h2>
-                        <br>
-                        <ul class='footer-contents'>
-                            <li>Testimony</li>
-                            <li>Forum</li>
-                            <li>Contact Us</li>
-                            <li>About Us</li>
-                        </ul>
-                </div>
-            </div>
+    <footer class="black-foot">
+      <div class="footer-wrapper">
+        <div class="component-wrapper-left">
+          <a class="link-white" href="index.html"><h1>TK</h1></a>
+          <div class="icon-wrapper">
+            <ul>
+              <li class="icon">
+                <a
+                  href="https://www.linkedin.com/in/takahiro-kawaguchi-972aa2134/"
+                >
+                  <i class="fab fa-linkedin fa-2x" alt="linkedin icon"></i>
+                </a>
+              </li>
+              <li class="icon">
+                <a href="https://github.com/aaio0413">
+                  <i class="fab fa-github fa-2x" alt="github icon"></i>
+                </a>
+              </li>
+              <li class="icon">
+                <a href="https://www.facebook.com/takahiro.kawaguchi.904">
+                  <i
+                    class="fab fa-facebook-square fa-2x"
+                    alt="facebook icon"
+                  ></i>
+                </a>
+              </li>
+              <li class="icon">
+                <a href="https://twitter.com/aaio_0413">
+                  <i class="fab fa-twitter-square fa-2x" alt="twitter icon"></i>
+                </a>
+              </li>
+            </ul>
+          </div>
         </div>
+        <div class="component-wrapper-right">
+          <div class="second-footer">
+            <h2>ABOUT ME</h2>
+            <br />
+            <ul class="footer-contents">
+              <li>Profile and Bio</li>
+              <li>Blog</li>
+              <li>Team</li>
+              <li>Privacy</li>
+            </ul>
+          </div>
+          <div class="third-footer">
+            <h2>WORK</h2>
+            <br />
+            <ul class="footer-contents">
+              <li>Apps</li>
+              <li>Designs</li>
+              <li>Pictures</li>
+              <li>Pages</li>
+            </ul>
+          </div>
+          <div class="fourth-footer">
+            <h2>CLIENTS</h2>
+            <br />
+            <ul class="footer-contents">
+              <li>Testimony</li>
+              <li>Forum</li>
+              <li>Contact Us</li>
+              <li>About Us</li>
+            </ul>
+          </div>
+        </div>
+      </div>
     </footer>
-    <script src='assets/javascript/portfolio.js'></script>
-</body>
-
+    <script src="assets/javascript/portfolio.js"></script>
+  </body>
 </html>
